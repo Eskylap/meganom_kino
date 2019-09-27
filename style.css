@@ -1,18 +1,39 @@
-#red {
-    width: 600px;
-    height: 600px;
-    background-color: red;
+#grey {
+    width: 1000px;
+    height: 900px;
+    background-color: grey;
 }
+#green1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    text-align: center;
 
-#yellow {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    display: inline-block;
 }
-#orange {
-    background-color: orange;
-    width: 200px;
-    height: 200px;
+#yellow {
+    width: 700px;
+    height: 500px;
+    background-color: yellow;
+    margin-left: 10px;
+    margin-top: 50px;
     display: inline-block;
+    float: left;
+}
+#yellow1 {
+    width: 200px;
+    height: 500px;
+    background-color: yellow;
+    margin-top: 50px;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+#green {
+    text-align: center;
+    width: 98%;
+    height: 50px;
+    background-color: green;
+    display: block;
+    margin-left: 10px;
+
 }
