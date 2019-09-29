@@ -15,7 +15,7 @@
     height: 500px;
     background-color: yellow;
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 80px;
     display: inline-block;
     float: left;
 }
@@ -23,7 +23,7 @@
     width: 200px;
     height: 500px;
     background-color: yellow;
-    margin-top: 50px;
+    margin-top: 80px;
     display: inline-block;
     float: right;
     margin-right: 10px;
@@ -31,9 +31,29 @@
 #green {
     text-align: center;
     width: 98%;
-    height: 50px;
+    height: 130px;
     background-color: green;
     display: block;
     margin-left: 10px;
-
+}
+#flower {
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+#flower1 {
+    width: 150px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    text-align: center;
+    margin-right: 15px;
 }
