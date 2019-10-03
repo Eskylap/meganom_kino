@@ -1,7 +1,6 @@
 body {
     background-color: #06141F;
 }
-
 #main {
     display: flex;
     justify-content: center;
@@ -9,17 +8,52 @@ body {
     width: 100%;
     height: 950px;
 }
+#f1 {
+    height: 900px;
+    width: 500px;
+    position: absolute;
+}
 .inner {
     width: 400px;
     height: 900px;
     margin-top: 55px;
+    text-align: center;
 }
 .inner-in-main {
     position: absolute;
     top: -900px;
     height: 900px;
-    width: 400px;
-    background-color: red;
+    width: 385px;
+    background-color: peachpuff;
+    text-align: center;
+}
+.word {
+    font-size: 40px;
+    margin-top: 300px;
+    color: #06141F;
+    font-weight: bold;
+}
+.word1 {
+    text-align: center;
+    margin-top: 350px;
+    margin-right: 30px;
+}
+#f3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+#f4 {
+    font-size: 40px;
+    margin-top: 205px;
+    color: #06141F;
+    font-weight: bold;
+}
+#f5 {
+    text-align: center;
+    margin-top: 350px;
 }
 /*Правила для анимации внешних блоков*/
 #a1 {
@@ -74,22 +108,22 @@ body {
 
 /*Правила для анимации внутренних блоков*/
 #a1:hover #element-in-inner1 {
-    top: 55px;
+    top: 63px;
     transition: 1s;
 }
 #a2:hover #element-in-inner2 {
-    top: 55px;
+    top: 63px;
     transition: 1s;
 }
 #a3:hover #element-in-inner3 {
-    top: 55px;
+    top: 63px;
     transition: 1s;
 }
 #a4:hover #element-in-inner4 {
-    top: 55px;
+    top: 63px;
     transition: 1s;
 }
 #a5:hover #element-in-inner5 {
-    top: 55px;
+    top: 63px;
     transition: 1s;
 }
