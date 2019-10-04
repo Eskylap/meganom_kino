@@ -1,0 +1,21 @@
+#main {
+    width: 100%;
+    height: 900px;
+    background-color: #06141F;
+    display: flex;
+    justify-content: center;
+}
+#second {
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    background-color: darkblue;
+    margin-top: 100px;
+    margin-right: 1500px;
+}
+#three {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}

@@ -28,7 +28,7 @@ body {
     text-align: center;
 }
 .word {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 300px;
     color: #06141F;
     font-weight: bold;
@@ -37,6 +37,7 @@ body {
     text-align: center;
     margin-top: 350px;
     margin-right: 30px;
+    font-size: 15px;
 }
 #f3 {
     font-weight: bold;
@@ -126,4 +127,40 @@ body {
 #a5:hover #element-in-inner5 {
     top: 63px;
     transition: 1s;
+}
+#word2:hover {
+    color: red;
+    transition: 0.5s;
+}
+#word3:hover {
+    color: red;
+    transition: 0.5s;
+}
+#word4:hover {
+    color: red;
+    transition: 0.5s;
+}
+#word5:hover {
+    color: red;
+    transition: 0.5s;
+}
+#word6:hover {
+    color: red;
+    transition: 0.5s;
+}
+#word7:hover {
+    color: red;
+    transition: 0.5s;
+}
+#word8:hover {
+     color: red;
+     transition: 0.5s;
+ }
+#word9:hover {
+    color: red;
+    transition: 0.5s;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
