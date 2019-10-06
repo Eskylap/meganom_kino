@@ -1,0 +1,27 @@
+div {
+    height: 100px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+#text {
+    text-decoration: none;
+    color: red;
+
+}
+#one:hover  {
+    transform: scaleX(2);
+    transition: 2s;
+}
+#two:hover {
+    transform: skewX(50deg);
+    transition: 2s;
+}
+
+#three:hover {
+    transform: skewY(50deg);
+    transition: 2s;
+}
